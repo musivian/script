@@ -3,8 +3,8 @@
 # Remove any existing local manifest directory (clean start)
 rm -rf .repo/local_manifests/
 
-# Initialize the ROM manifest using RisingTechOSS repository (branch 'fourteen')
-repo init -u https://github.com/ProjectEverest/manifest.git -b fourteen --git-lfs
+# Initialize the ROM manifest
+repo init -u https://github.com/ProjectEverest/manifest.git -b 14 --git-lfs
 
 # Synchronize the repository using the custom 'resync.sh' script
 /opt/crave/resync.sh
