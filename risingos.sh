@@ -40,7 +40,7 @@ git clone https://github.com/cyberknight777/android_packages_apps_DisplayFeature
 git clone https://github.com/KProfiles/android_packages_apps_Kprofiles.git --depth 1 -b main packages/apps/KProfiles
 
 # Clone hardware repositories for Xiaomi and Qualcomm's SM8150 platform
-git clone https://github.com/yaap/hardware_xiaomi.git --depth 1 -b fifteen hardware/xiaomi
+git clone https://github.com/musivian/hardware_xiaomi.git --depth 1 -b fifteen hardware/xiaomi
 git clone https://github.com/yaap/hardware_qcom-caf_sm8150_media.git --depth 1 -b fifteen hardware/qcom-caf/sm8150/media
 
 # Clone prebuilt GCC toolchains for cross-compiling
