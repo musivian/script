@@ -26,11 +26,11 @@ rm -rf vendor/lineage
 git clone https://github.com/musivian/device_xiaomi_sunny.git --depth 1 -b lineage-22 device/xiaomi/sunny
 git clone https://github.com/yaap/device_qcom_common.git --depth 1 -b fifteen device/qcom/common
 git clone https://github.com/AOSPA/android_device_qcom_qssi.git --depth 1 -b vauxite device/qcom/qssi
+
+# Clone inline kernel
 git clone https://github.com/Neternels/android_kernel_xiaomi_sunny.git --depth 1 -b staging kernel/xiaomi/sunny
-#git clone https://github.com/musivian/device_xiaomi_sunny-kernel.git --depth 1 -b fifteen device/xiaomi/sunny-kernel
 
 # Clone vendor repositories for Xiaomi and Qualcomm dependencies
-#git clone https://github.com/yaap/vendor_xiaomi_sunny.git --depth 1 -b fifteen vendor/xiaomi/sunny
 git clone https://github.com/alonsoj636MW/vendor_xiaomi_sunny.git --depth 1 -b lineage-22 vendor/xiaomi/sunny
 git clone https://gitlab.com/yaosp/vendor_qcom_common.git --depth 1 -b fifteen vendor/qcom/common
 git clone https://github.com/yaap/vendor_qcom_opensource_core-utils.git --depth 1 -b fifteen vendor/qcom/opensource/core-utils
@@ -50,10 +50,10 @@ git clone https://github.com/StatiXOS/android_prebuilts_gcc_linux-x86_arm_arm-ea
 # Source mods
 git clone https://github.com/musivian/android_vendor_lineage.git --depth 1 -b fifteen vendor/lineage
 
-#
+# neternels_defconfig: set localversion to risingos
 ./kernel/xiaomi/sunny/scripts/config --file kernel/xiaomi/sunny/arch/arm64/configs/neternels_defconfig --set-str "-NetErnels-RisingOS"
 
-# Set up th build environment
+# Set up the build environment
 . build/envsetup.sh
 
 # Choose the target device
