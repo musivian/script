@@ -54,7 +54,7 @@ git clone https://github.com/musivian/android_vendor_lineage.git --depth 1 -b fi
 . build/envsetup.sh
 
 # Choose the target device
-lunch lineage_mojito-ap3a-user
+lunch lineage_sunny-ap3a-user
 
 # Build the ROM
 m evolution
