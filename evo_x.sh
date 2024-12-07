@@ -28,7 +28,7 @@ git clone https://github.com/yaap/device_qcom_common.git --depth 1 -b fifteen de
 git clone https://github.com/AOSPA/android_device_qcom_qssi.git --depth 1 -b vauxite device/qcom/qssi
 
 # Clone inline kernel
-git clone https://github.com/musivian/kernel_xiaomi_sunny.git --depth 1 -b staging kernel/xiaomi/sunny
+git clone https://github.com/musivian/kernel_xiaomi_sunny.git --depth 1 -b evo-x kernel/xiaomi/sunny
 
 # Clone vendor repositories for Xiaomi and Qualcomm dependencies
 git clone https://github.com/alonsoj636MW/vendor_xiaomi_sunny.git --depth 1 -b lineage-22 vendor/xiaomi/sunny
