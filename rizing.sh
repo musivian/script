@@ -14,6 +14,7 @@ rm -rf vendor/xiaomi/sunny
 rm -rf kernel/xiaomi/sunny
 rm -rf vendor/qcom/common
 rm -rf vendor/qcom/opensource/core-utils
+rm -rf packages/apps/FastCharge
 rm -rf packages/apps/DisplayFeatures
 rm -rf packages/apps/KProfiles
 rm -rf hardware/xiaomi
