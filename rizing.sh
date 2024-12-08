@@ -14,7 +14,6 @@ rm -rf vendor/xiaomi/sunny
 rm -rf kernel/xiaomi/sunny
 rm -rf vendor/qcom/common
 rm -rf vendor/qcom/opensource/core-utils
-rm -rf packages/apps/FastCharge
 rm -rf packages/apps/DisplayFeatures
 rm -rf packages/apps/KProfiles
 rm -rf hardware/xiaomi
@@ -41,7 +40,6 @@ git clone https://gitlab.com/yaosp/vendor_qcom_common.git --depth 1 -b fifteen v
 git clone https://github.com/yaap/vendor_qcom_opensource_core-utils.git --depth 1 -b fifteen vendor/qcom/opensource/core-utils
 
 # Clone package repositories for additional features
-git clone https://github.com/cyberknight777/android_packages_apps_FastCharge packages/apps/FastCharge
 git clone https://github.com/cyberknight777/android_packages_apps_DisplayFeatures packages/apps/DisplayFeatures
 git clone https://github.com/KProfiles/android_packages_apps_Kprofiles.git --depth 1 -b main packages/apps/KProfiles
 
