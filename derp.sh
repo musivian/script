@@ -52,7 +52,7 @@ git clone https://github.com/StatiXOS/android_prebuilts_gcc_linux-x86_aarch64_aa
 git clone https://github.com/StatiXOS/android_prebuilts_gcc_linux-x86_arm_arm-eabi.git --depth 1 -b 12.0.0 prebuilts/gcc/linux-x86/arm/arm-eabi
 
 # Source mods
-git clone https://github.com/musivian/android_vendor_lineage.git --depth 1 -b fifteen vendor/lineage
+git clone https://github.com/musivian/vendor_derp.git --depth 1 -b fifteen vendor/lineage
 
 # Set up the build environment
 . build/envsetup.sh
