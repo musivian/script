@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Initialize ROM manifest
-repo init -u https://github.com/RisingTechOSS/android -b fifteen --git-lfs
+repo init -u https://github.com/DerpFest-AOSP/manifest.git -b 15 --git-lfs
 
 # Sync the repo with force to ensure a clean sync
 /opt/crave/resync.sh
