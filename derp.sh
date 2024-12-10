@@ -20,7 +20,7 @@ rm -rf hardware/xiaomi
 rm -rf hardware/qcom-caf/sm8150/media
 rm -rf prebuilts/gcc/linux-x86/aarch64/aarch64-elf
 rm -rf prebuilts/gcc/linux-x86/arm/arm-eabi
-rm -rf vendor/lineage
+rm -rf vendor/derp
 
 # Clone the necessary device repositories
 git clone https://github.com/musivian/device_xiaomi_sunny.git --depth 1 -b derp device/xiaomi/sunny
@@ -52,7 +52,7 @@ git clone https://github.com/StatiXOS/android_prebuilts_gcc_linux-x86_aarch64_aa
 git clone https://github.com/StatiXOS/android_prebuilts_gcc_linux-x86_arm_arm-eabi.git --depth 1 -b 12.0.0 prebuilts/gcc/linux-x86/arm/arm-eabi
 
 # Source mods
-git clone https://github.com/musivian/vendor_derp.git --depth 1 -b fifteen vendor/lineage
+git clone https://github.com/musivian/vendor_derp.git --depth 1 -b fifteen vendor/derp
 
 # Set up the build environment
 . build/envsetup.sh
