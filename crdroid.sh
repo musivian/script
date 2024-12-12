@@ -57,8 +57,5 @@ git clone https://github.com/musivian/android_vendor_lineage.git --depth 1 -b fi
 # Set up the build environment
 . build/envsetup.sh
 
-# Choose the target device
-riseup sunny user
-
 # Build the ROM
-rise b
+brunch sunny
