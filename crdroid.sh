@@ -23,16 +23,12 @@ rm -rf prebuilts/gcc/linux-x86/arm/arm-eabi
 rm -rf vendor/lineage
 
 # Clone the necessary device repositories
-git clone https://github.com/musivian/device_xiaomi_sunny.git --depth 1 -b fifteen device/xiaomi/sunny
+git clone https://github.com/musivian/device_xiaomi_sunny.git --depth 1 -b crdroid device/xiaomi/sunny
 git clone https://github.com/yaap/device_qcom_common.git --depth 1 -b fifteen device/qcom/common
 git clone https://github.com/AOSPA/android_device_qcom_qssi.git --depth 1 -b vauxite device/qcom/qssi
 
 # Clone inline kernel (NetErnels)
 git clone https://github.com/musivian/kernel_xiaomi_sunny.git --depth 1 -b crdroid kernel/xiaomi/sunny
-# Clone inline kernel (Strix)
-#git clone https://github.com/musivian/kernel_xiaomi_mojito.git --depth 1 -b inline-rom kernel/xiaomi/sunny
-# Clone inline kernel (WestCoast)
-#git clone https://github.com/backslashxx/mojito_krenol.git --depth 1 -b staging kernel/xiaomi/sunny
 
 # Clone vendor repositories for Xiaomi and Qualcomm dependencies
 git clone https://github.com/musivian/vendor_xiaomi_sunny.git --depth 1 -b fifteen vendor/xiaomi/sunny
@@ -52,7 +48,7 @@ git clone https://github.com/StatiXOS/android_prebuilts_gcc_linux-x86_aarch64_aa
 git clone https://github.com/StatiXOS/android_prebuilts_gcc_linux-x86_arm_arm-eabi.git --depth 1 -b 12.0.0 prebuilts/gcc/linux-x86/arm/arm-eabi
 
 # Source mods
-git clone https://github.com/musivian/android_vendor_lineage.git --depth 1 -b fifteen vendor/lineage
+git clone https://github.com/musivian/android_vendor_crdroid.git --depth 1 -b fifteen vendor/lineage
 
 # Set up the build environment
 . build/envsetup.sh
