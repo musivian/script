@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Initialize ROM manifest
-repo init -u https://github.com/CipherOS/android_manifest.git -b fifteen --git-lfs
+repo init -u https://github.com/CipherOS/android_manifest -b fifteen --git-lfs
 
 # Sync the repo with force to ensure a clean sync
 /opt/crave/resync.sh
