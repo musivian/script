@@ -28,11 +28,7 @@ git clone https://github.com/yaap/device_qcom_common.git --depth 1 -b fifteen de
 git clone https://github.com/AOSPA/android_device_qcom_qssi.git --depth 1 -b vauxite device/qcom/qssi
 
 # Clone inline kernel (NetErnels)
-git clone https://github.com/Neternels/android_kernel_xiaomi_sunny.git --depth 1 -b staging kernel/xiaomi/sunny
-# Clone inline kernel (Strix)
-#git clone https://github.com/musivian/kernel_xiaomi_mojito.git --depth 1 -b inline-rom kernel/xiaomi/sunny
-# Clone inline kernel (WestCoast)
-#git clone https://github.com/backslashxx/mojito_krenol.git --depth 1 -b staging kernel/xiaomi/sunny
+git clone https://github.com/musivian/kernel_xiaomi_sunny.git --depth 1 -b rising kernel/xiaomi/sunny
 
 # Clone vendor repositories for Xiaomi and Qualcomm dependencies
 git clone https://github.com/musivian/vendor_xiaomi_sunny.git --depth 1 -b fifteen vendor/xiaomi/sunny
