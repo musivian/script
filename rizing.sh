@@ -11,7 +11,7 @@ rm -rf device/xiaomi/sunny
 rm -rf device/qcom/common
 rm -rf device/qcom/qssi
 rm -rf vendor/xiaomi/sunny
-rm -rf kernel/xiaomi/sunny
+rm -rf device/xiaomi/sunny-kernel
 rm -rf vendor/qcom/common
 rm -rf vendor/qcom/opensource/core-utils
 rm -rf packages/apps/DisplayFeatures
