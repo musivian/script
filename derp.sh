@@ -23,7 +23,7 @@ rm -rf prebuilts/gcc/linux-x86/arm/arm-eabi
 rm -rf vendor/derp
 
 # Clone the necessary device repositories
-git clone https://github.com/musivian/device_xiaomi_sunny_rising.git --depth 1 -b derp device/xiaomi/sunny
+git clone https://github.com/musivian/device_xiaomi_sunny.git --depth 1 -b prebuilt-derp device/xiaomi/sunny
 git clone https://github.com/yaap/device_qcom_common.git --depth 1 -b fifteen device/qcom/common
 git clone https://github.com/AOSPA/android_device_qcom_qssi.git --depth 1 -b vauxite device/qcom/qssi
 
@@ -31,7 +31,7 @@ git clone https://github.com/AOSPA/android_device_qcom_qssi.git --depth 1 -b vau
 git clone https://github.com/musivian/device_xiaomi_sunny-kernel.git --depth 1 -b derpfest device/xiaomi/sunny-kernel
 
 # Clone vendor repositories for Xiaomi and Qualcomm dependencies
-git clone https://github.com/PixelOS-Devices/vendor_xiaomi_sunny --depth 1 -b fifteen vendor/xiaomi/sunny
+git clone https://github.com/musivian/vendor_xiaomi_sunny.git --depth 1 -b fifteen vendor/xiaomi/sunny
 git clone https://gitlab.com/yaosp/vendor_qcom_common.git --depth 1 -b fifteen vendor/qcom/common
 git clone https://github.com/yaap/vendor_qcom_opensource_core-utils.git --depth 1 -b fifteen vendor/qcom/opensource/core-utils
 
